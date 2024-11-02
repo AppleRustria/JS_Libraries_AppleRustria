@@ -4,25 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Libraries- Furniture Site</title>
-
+    <!-- css style-->
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- add-ons for bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-          <div class="logo">A-World</div>
-          <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-    
+    <!-- Header Section -->
+<header class="bg-dark text-white text-center">
+  <div class="container">
+    <h1 class="logo">A-World</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
 
-      <script src="/assets/js/main.js"></script>
+<!-- Hero Section -->
+<section id="hero" class="text-center text-white">
+  <div class="hero-content">
+    <h2>Welcome to A-World Furniture</h2>
+    <p>Elegant and Modern Furniture for Every Space</p>
+    <a href="#services" class="btn btn-primary mt-3">Explore Our Services</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="service-card p-4">
+          <i class="fas fa-couch fa-3x mb-3"></i>
+          <h4>Custom Furniture</h4>
+          <p>We create custom furniture tailored to fit your unique style and space.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="service-card p-4">
+          <i class="fas fa-paint-brush fa-3x mb-3"></i>
+          <h4>Furniture Restoration</h4>
+          <p>Bring new life to old furniture with our expert restoration services.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="service-card p-4">
+          <i class="fas fa-truck fa-3x mb-3"></i>
+          <h4>Delivery & Assembly</h4>
+          <p>Enjoy hassle-free delivery and assembly for all your furniture needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap and jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
 </body>
 </html>
