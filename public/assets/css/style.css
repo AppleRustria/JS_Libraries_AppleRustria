@@ -1,6 +1,6 @@
 /* Header styling */
 header {
-  background-image: url('../public/assets/images/bg.jpg'); /* Replace with the correct path */
+  background-image: url('../images/bg.jpg'); /* Replace with the correct path */
   background-size: cover;
   background-position: center;
   padding: 20px 0;
@@ -25,30 +25,37 @@ header {
   color: #ff6347 !important; /* Highlight color on hover */
 }
 
-/* Hero Section styling */
+/* Hero Section Slider */
 #hero {
-  background-image: url('../public/assets/images/hero-bg.jpg'); /* Replace with your hero image path */
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.hero-slide {
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
-  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-content {
-  max-width: 600px;
-  margin: 0 auto;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
+  color: white;
+  text-align: center;
   border-radius: 5px;
 }
 
-#hero h2 {
+.hero-content h2 {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#hero p {
+.hero-content p {
   font-size: 20px;
   margin-bottom: 20px;
 }
