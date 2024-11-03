@@ -11,8 +11,10 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Glide CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+  
+    
 
 </head>
 <body>
@@ -48,27 +50,35 @@
 </header>
 
 <!-- Hero Section Slider -->
+
 <section id="hero" class="glide">
   <div class="glide__track" data-glide-el="track">
     <ul class="glide__slides">
-      <li class="glide__slide" style="background-image: url('path/to/hero-image1.jpg');">
+      <li class="glide__slide slide-1">
         <div class="hero-content">
           <h2>Elegant and Modern Furniture</h2>
           <p>Find the perfect piece for every room in your home.</p>
           <a href="#services" class="btn btn-primary mt-3">Explore Our Services</a>
         </div>
       </li>
-      <li class="glide__slide" style="background-image: url('path/to/hero-image2.jpg');">
+      <li class="glide__slide slide-2">
         <div class="hero-content">
           <h2>Handcrafted for Every Taste</h2>
           <p>Quality furniture designed to suit your style and needs.</p>
           <a href="#services" class="btn btn-primary mt-3">Explore Our Services</a>
         </div>
       </li>
-      <!-- Add more slides as needed -->
     </ul>
   </div>
+
+  <!-- Navigation Arrows -->
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">←</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">→</button>
+  </div>
 </section>
+
+
 
 
 
