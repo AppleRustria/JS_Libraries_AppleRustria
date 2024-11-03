@@ -1,10 +1,18 @@
+body{
+  background: linear-gradient(135deg, #1a1a1a, #000000); /* Apply gradient background */
+}
+
+
+
 /* Header styling */
 header {
-  background-image: url('../images/bg.jpg'); /* Replace with the correct path */
+  /* background-image: url('../images/bg.jpg');  */
+  background: linear-gradient(135deg, #f0efef, #726d6d); /* Apply gradient background */
   background-size: cover;
   background-position: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
+
 
 /* Logo styling */
 .logo {
@@ -34,11 +42,14 @@ header {
 #hero .glide__slide {
   height: 80vh; /* Full viewport height */
   overflow: hidden;
+  
 }
 
 .glide__slide {
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,8 +60,30 @@ header {
 }
 
 .slide-2 {
-  background-image: url('../images/d1.jpg');
+  background-image: url('../images/d1.png');
 }
+
+.slide-3 {
+  background-image: url('../images/De2.png');
+}
+
+.slide-4 {
+  background-image: url('../images/L1.png');
+}
+
+.slide-5 {
+  background-image: url('../images/Night1.png');
+}
+
+.slide-6 {
+  background-image: url('../images/Shelve1.png');
+}
+
+.slide-7 {
+  background-image: url('../images/Stool3.png');
+}
+
+
 
 .hero-content {
   background: rgba(0, 0, 0, 0.5);

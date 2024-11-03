@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     type: 'carousel',
     perView: 1,
     focusAt: 'center',
-    autoplay: 5000,            // Change slides every 5 seconds
+    autoplay: 4000,            // Change slides every 4 seconds
     hoverpause: true,          // Pause autoplay on hover
     animationDuration: 800,    // Set slide transition duration to 800ms
     animationTimingFunc: 'ease-in-out', // Smooth easing for transitions
