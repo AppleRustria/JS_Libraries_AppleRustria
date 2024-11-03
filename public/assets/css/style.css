@@ -2,8 +2,6 @@ body{
   background: linear-gradient(135deg, #1a1a1a, #000000); /* Apply gradient background */
 }
 
-
-
 /* Header styling */
 header {
   /* background-image: url('../images/bg.jpg');  */
@@ -64,7 +62,7 @@ header {
 }
 
 .slide-3 {
-  background-image: url('../images/De2.png');
+  background-image: url('../images/De3.png');
 }
 
 .slide-4 {
@@ -80,7 +78,7 @@ header {
 }
 
 .slide-7 {
-  background-image: url('../images/Stool3.png');
+  background-image: url('../images/Stool1.png');
 }
 
 
@@ -116,6 +114,103 @@ header {
 
 .glide__arrow:hover {
   background: rgba(0, 0, 0, 0.9);
+}
+
+/* Collection Section */
+.collection-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.collection-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Collection Section */
+.collection-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.collection-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ecdddd;
+}
+
+/* Collection Container */
+.collection-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.collection-item {
+  position: relative;
+  width: 300px; /* Adjust based on your design */
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Background images for each collection item */
+.dining-room {
+  background-image: url('../images/d2.png');
+}
+
+.living-room {
+  background-image: url('../images/L2.png');
+}
+
+.bedroom {
+  background-image: url('../images/B2.png');
+}
+
+/* Overlay with Text */
+.collection-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.collection-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.shop-button:hover {
+  background: #f0f0f0;
+}
+
+/* Hover Effect */
+.collection-item:hover .collection-overlay {
+  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
 }
 
 
