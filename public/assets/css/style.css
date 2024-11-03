@@ -122,6 +122,10 @@ header {
   text-align: center;
 }
 
+#collection {
+  background: #49637c;
+}
+
 .collection-title {
   font-size: 24px;
   font-weight: bold;

@@ -23,3 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
   setSlideHeight();
   window.addEventListener('resize', setSlideHeight);
 });
+
+
+
