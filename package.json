@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.2",
-    "choreographer-js": "^1.1.0"
+    "choreographer-js": "^1.1.0",
+    "granim": "^2.0.0"
   }
 }

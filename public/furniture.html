@@ -5,11 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture Shop All</title>
 
+    <!-- add-ons for bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/furni.css">
-    <script src="https://cdn.jsdelivr.net/npm/choreographer-js@0.3.2/choreographer.min.js"></script>
+    
 </head>
 <body>
+
+    <canvas id="granim-canvas"></canvas>
+
+    <header class="bg-dark text-white text-center">
+    
+        <div class="container">
+          <h1 class="logo">A/ture</h1>
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#collection">Collection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
 
   <!-- Hero Section -->
   <section class="hero-section text-center py-5">
@@ -58,13 +94,267 @@
             </div>
           </div>
         </div>
+         <!-- Collection Item 1 -->
+         <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- Collection Item 1 -->
+        <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table1.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Modern Dining Table</h5>
+                <p class="card-text">$799.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 2 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-table2.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic Dining Set</h5>
+                <p class="card-text">$1,199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Collection Item 3 -->
+          <div class="col-md-4">
+            <div class="card collection-item">
+              <div class="card-img-top" style="background-image: url('/path/to/dining-chair.jpg');"></div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Dining Chair</h5>
+                <p class="card-text">$199.00</p>
+                <button class="btn btn-dark">Add to Cart</button>
+              </div>
+            </div>
+          </div>
 
         <!-- Add more gallery items as needed -->
       </div>
     </div>
   </section>
 
+  <!-- Bootstrap and jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/granim@2.0.0/dist/granim.min.js"></script>
   <script src="/assets/js/furni.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+
 </body>
 </html>

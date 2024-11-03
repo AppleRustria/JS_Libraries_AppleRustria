@@ -1,7 +1,28 @@
-/* Hero Section */
-.hero-section {
-    background: #f4f4f4;
+
+  
+  /* Logo styling */
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
   }
+  
+  /* Navbar link styling */
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ff6347;
+  }
+
+
+
+
+/* Hero Section */
   
   .hero-title {
     font-size: 2.5em;
@@ -10,7 +31,7 @@
   
   .hero-subtitle {
     font-size: 1.2em;
-    color: #666;
+    color: #f9f7f7;
   }
   
   /* Gallery Section */
@@ -31,3 +52,16 @@
     border-radius: 8px 8px 0 0;
   }
   
+  #granim-canvas {
+    position: fixed; /* Change from absolute to fixed to cover the entire screen */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ensure it covers the full viewport width */
+    height: 100vh; /* Ensure it covers the full viewport height */
+    z-index: -1; /* Keep it behind all other content */
+}
+
+.hero-section, .gallery-section {
+    position: relative;
+    z-index: 1; /* Ensure these sections are above the canvas */
+}
