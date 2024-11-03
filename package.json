@@ -1,0 +1,19 @@
+{
+  "name": "js_libraries_applerustria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Apple Rustria",
+  "license": "ISC",
+  "description": "JS Libraries- Furniture Assignment",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.2",
+    "choreographer-js": "^1.1.0"
+  }
+}
