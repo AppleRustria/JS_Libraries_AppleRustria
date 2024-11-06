@@ -1,11 +1,12 @@
 body{
-  background: linear-gradient(135deg, #1a1a1a, #000000); /* Apply gradient background */
+  background: linear-gradient(135deg, #1a1a1a, #000000); 
 }
 
 /* Header styling */
 header {
   /* background-image: url('../images/bg.jpg');  */
-  background: linear-gradient(135deg, #f0efef, #726d6d); /* Apply gradient background */
+  /* background: linear-gradient(135deg, #f0efef, #726d6d);  */
+  background: linear-gradient(135deg, #1a1a1a, #000000); 
   background-size: cover;
   background-position: center;
   padding: 10px 0;
