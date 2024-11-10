@@ -10,7 +10,7 @@
     <!-- add-ons for bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
-   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 </head>
 <body>
@@ -31,10 +31,10 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#collection">Collection</a>
+            <a class="nav-link" href="furniture.html">Collection</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contactus.html">Contact Us</a>
@@ -70,16 +70,17 @@
     <section class="mb-5">
         <h2>Our Address</h2>
         <address>
-            1234 Street Rd, City, Country 12345<br>
-            Email: contact@example.com<br>
+            1234 Seneca Polytechnic<br>
+            Email: arustria@myseneca.ca<br>
             Phone: (123) 456-7890
         </address>
     </section>
 
-    <!-- <section class="map">
-        <h2>Find Us</h2>
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section> -->
+    <section class="map">
+        <!-- <h2>Find Us</h2>
+        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+        <div id="map" style="height: 400px;"></div>
+      </section>
 </main>
 
 <footer class="bg-light text-center text-lg-start">
@@ -103,6 +104,8 @@
 
 <!-- Include the Parsley JavaScript library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"></script>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <!-- Link to your main.js file -->
 <script src="/assets/js/main.js"></script>
