@@ -49,17 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   anime({
-//       targets: '.service-block',
-//       translateY: [100, 0], // Slide up effect
-//       opacity: [0, 1], // Fade in effect
-//       duration: 2000,
-//       easing: 'easeInOutQuad',
-//       delay: anime.stagger(200) // Delay each .service-block animation slightly
-//   });
-// });
-
 
 //map
 
