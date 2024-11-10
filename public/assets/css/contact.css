@@ -1,0 +1,82 @@
+/* CONTACT US */
+
+body{
+    background: linear-gradient(135deg, #1a1a1a, #000000); 
+  }
+  
+  /* Header styling */
+  header {
+    /* background-image: url('../images/bg.jpg');  */
+    /* background: linear-gradient(135deg, #f0efef, #726d6d);  */
+    background: linear-gradient(135deg, #1a1a1a, #000000); 
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+  }
+  
+  
+  /* Logo styling */
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  /* Navbar link styling */
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ff6347;
+  }
+
+main {
+    padding-top: 50px; /* Adds spacing on top, pushing the content below the navbar */
+    background-color: #d4b8b3;
+  }
+  
+  .contact-form {
+    background-color: #ffffff; /* Ensures the form background is white */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(184, 21, 21, 0.93); /* Adds subtle shadow for depth */
+  }
+  
+  .contact-form .form-control {
+    border-radius: 4px; /* Slightly rounded edges for form inputs */
+  }
+  
+  .contact-form button.btn-primary {
+    background-color: #0056b3; /* Custom primary color if needed */
+    border-color: #0056b3; /* Ensures the border color matches */
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f2f2f2; /* Slightly different background to distinguish the section */
+    border-radius: 8px;
+  }
+  
+  .contact-info address {
+    margin-bottom: 0; /* Reduces space below the address for compact appearance */
+  }
+  
+  .map iframe {
+    width: 100%; /* Full width to ensure responsiveness */
+    height: 450px; /* Fixed height, but could be made responsive with Bootstrap's classes */
+    border: none; /* Removes default border styling */
+    border-radius: 8px; /* Optional: adds rounded corners to the map */
+  }
+  
+  footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* Light text color for contrast */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
