@@ -10,6 +10,9 @@
     <!-- add-ons for bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
+    <!-- Include the Parsley JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"></script>
+
 </head>
 <body>
     <!-- Header Section -->
@@ -47,21 +50,22 @@
     <section class="mb-5">
         <h1>Contact Us</h1>
         <p>Please fill out the form below and we will get back to you as soon as possible.</p>
-        <form>
+        <form id="contact-form" data-parsley-validate>
             <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required data-parsley-trigger="change">
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required data-parsley-trigger="change">
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" id="message" name="message" required data-parsley-trigger="keyup"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        
     </section>
 
     <section class="mb-5">
@@ -100,8 +104,10 @@
 
 
 <!-- Link to your main.js file -->
-<!-- <script src="/assets/js/main.js"></script> -->
+<script src="/assets/js/main.js"></script>
 
+<!-- Include the Parsley JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"></script>
 
 </body>
 </html>

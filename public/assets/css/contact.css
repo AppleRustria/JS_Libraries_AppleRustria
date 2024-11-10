@@ -65,6 +65,12 @@ main {
   .contact-info address {
     margin-bottom: 0; /* Reduces space below the address for compact appearance */
   }
+
+  .parsley-errors-list {
+    color: red;
+    list-style-type: none;
+    padding: 0;
+}
   
   .map iframe {
     width: 100%; /* Full width to ensure responsiveness */
@@ -74,8 +80,8 @@ main {
   }
   
   footer {
-    background-color: #333; /* Dark footer background */
-    color: #fff; /* Light text color for contrast */
+    background-color: #7b2222; /* Dark footer background */
+    color: #853c3c; /* Light text color for contrast */
     padding: 20px 0;
     text-align: center;
   }

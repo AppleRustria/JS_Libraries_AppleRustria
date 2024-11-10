@@ -26,3 +26,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+// validation
+
+document.addEventListener('DOMContentLoaded', function() {
+  var form = $('#contact-form').parsley();
+  form.on('form:submit', function() {
+    // This is a correct place to handle form submission if valid.
+    return true; // return false to prevent form submission
+  });
+});
