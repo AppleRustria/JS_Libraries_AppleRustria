@@ -26,42 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// validation
-
-document.addEventListener('DOMContentLoaded', function() {
-  var form = $('#contact-form').parsley();
-  form.on('form:submit', function() {
-    // This is a correct place to handle form submission if valid.
-    return true; // return false to prevent form submission
-  });
-});
 
 
-//anime js
 
-document.addEventListener('DOMContentLoaded', function() {
-  anime({
-      targets: '#customFurniture',
-      translateY: [100, 0], // Slide up effect
-      opacity: [0, 1], // Fade in effect
-      duration: 2000,
-      easing: 'easeInOutQuad'
-  });
-});
-
-
-//map
-
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var map = L.map('map').setView([51.505, -0.09], 13); // Replace with your coordinates
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Adding a marker
-        var marker = L.marker([51.505, -0.09]).addTo(map); // Replace with your coordinates
-        marker.bindPopup('<b>Hello world!</b><br>I am a popup.').openPopup();
-    });
 
