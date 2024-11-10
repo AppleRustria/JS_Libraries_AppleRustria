@@ -36,7 +36,8 @@ body{
 
 main {
     padding-top: 50px; /* Adds spacing on top, pushing the content below the navbar */
-    background-color: #d4b8b3;
+    background-color: #181717;
+    color: #f2f2f2;
   }
   
   .contact-form {
@@ -77,12 +78,5 @@ main {
     height: 450px; /* Fixed height, but could be made responsive with Bootstrap's classes */
     border: none; /* Removes default border styling */
     border-radius: 8px; /* Optional: adds rounded corners to the map */
-  }
-  
-  footer {
-    background-color: #7b2222; /* Dark footer background */
-    color: #853c3c; /* Light text color for contrast */
-    padding: 20px 0;
-    text-align: center;
   }
   
