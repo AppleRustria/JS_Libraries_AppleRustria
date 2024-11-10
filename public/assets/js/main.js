@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
     return true; // return false to prevent form submission
   });
 });
+
