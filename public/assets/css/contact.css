@@ -86,3 +86,10 @@ main {
     border-radius: 8px; /* Optional: adds rounded corners to the map */
   }
   
+/* Footer */
+
+/* Background color for the copyright section */
+.copyright-section {
+  background-color: #333; /* Change this color to whatever you prefer */
+  color: #fff; /* Set text color to white for contrast */
+}

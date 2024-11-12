@@ -132,7 +132,8 @@ header {
 }
 
 #collection {
-  background: #49637c;
+  /* background: #49637c; */
+  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
 }
 
 .collection-title {
@@ -231,13 +232,15 @@ header {
 
 /* Services Section styling */
 #services {
-  background: #f8f9fa;
+  /* background: #54626f; */
+  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
 }
 
 #services h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #ecdddd;
 }
 
 .service-card {
@@ -273,6 +276,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+
 }
 
 .services-section .service .service-text {
@@ -377,4 +381,12 @@ input.progress[value]::-webkit-slider-thumb {
   border-radius: 50%;
   width: 16px;
   height: 16px;
+}
+
+/* Footer */
+
+/* Background color for the copyright section */
+.copyright-section {
+  background-color: #333; /* Change this color to whatever you prefer */
+  color: #fff; /* Set text color to white for contrast */
 }
