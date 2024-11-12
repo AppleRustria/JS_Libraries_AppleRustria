@@ -12,8 +12,6 @@ body{
 
 /* Header styling */
 header {
-  /* background-image: url('../images/bg.jpg');  */
-  /* background: linear-gradient(135deg, #f0efef, #726d6d);  */
   background: linear-gradient(135deg, #1a1a1a, #000000); 
   background-size: cover;
   background-position: center;
@@ -42,12 +40,11 @@ header {
 
 /* Hero Section Slider */
 
-/* Enforce full height on all Glide containers and slides */
 #hero,
 #hero .glide__track,
 #hero .glide__slides,
 #hero .glide__slide {
-  height: 80vh; /* Full viewport height */
+  height: 80vh; 
   overflow: hidden;
   
 }
@@ -132,8 +129,7 @@ header {
 }
 
 #collection {
-  /* background: #49637c; */
-  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
+  background: rgba(0, 0, 0, 0.7); 
 }
 
 .collection-title {
@@ -166,7 +162,7 @@ header {
 
 .collection-item {
   position: relative;
-  width: 300px; /* Adjust based on your design */
+  width: 300px; 
   height: 400px;
   overflow: hidden;
   border-radius: 8px;
@@ -174,7 +170,7 @@ header {
   background-position: center;
 }
 
-/* Background images for each collection item */
+/* images for each collection item */
 .dining-room {
   background-image: url('../images/d2.png');
 }
@@ -194,7 +190,7 @@ header {
   left: 0;
   right: 0;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
   transition: background 0.3s ease;
@@ -224,7 +220,7 @@ header {
 
 /* Hover Effect */
 .collection-item:hover .collection-overlay {
-  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -233,7 +229,7 @@ header {
 /* Services Section styling */
 #services {
   /* background: #54626f; */
-  background: rgba(0, 0, 0, 0.7); /* Darken overlay on hover */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 #services h2 {
@@ -296,10 +292,10 @@ header {
 }
 
 .service-block {
-  background-color: rgb(168, 108, 108); /* Adjust color as needed */
+  background-color: rgb(168, 108, 108); 
   color: white;
   padding: 20px;
-  opacity: 0; /* Start hidden */
+  opacity: 0; 
   
 }
 
@@ -309,11 +305,11 @@ header {
 }
 
 .service-block p {
-  margin-top: 10px; /* Adjust spacing as needed */
+  margin-top: 10px;
 }
 
 .service-reverse {
-  flex-direction: row-reverse; /* Reverses the order of the flex items */
+  flex-direction: row-reverse;
 }
 
 .custom-furniture {
@@ -328,9 +324,13 @@ header {
   background-image: url('../images/d2.png');
 }
 
-
-
 /* About us  */
+
+.hero{
+  color:#ecdddd;
+  padding-top: 40px;
+}
+
 .hero-inner {
   display: flex;
   flex-wrap: wrap;
@@ -353,6 +353,15 @@ header {
 .hero-image img {
   max-width: 100%;
   border-radius: 8px;
+}
+
+.hero-image {
+  background-image: url('../images/logo.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 300px;
 }
 
 .stats {
@@ -382,6 +391,6 @@ header {
 
 /* Background color for the copyright section */
 .copyright-section {
-  background-color: #333; /* Change this color to whatever you prefer */
-  color: #fff; /* Set text color to white for contrast */
+  background-color: #333; 
+  color: #fff; 
 }

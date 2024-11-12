@@ -12,8 +12,6 @@ body{
   
   /* Header styling */
   header {
-    /* background-image: url('../images/bg.jpg');  */
-    /* background: linear-gradient(135deg, #f0efef, #726d6d);  */
     background: linear-gradient(135deg, #1a1a1a, #000000); 
     background-size: cover;
     background-position: center;
@@ -41,36 +39,36 @@ body{
   }
 
 main {
-    padding-top: 50px; /* Adds spacing on top, pushing the content below the navbar */
+    padding-top: 50px; 
     background-color: #181717;
     color: #f2f2f2;
   }
   
   .contact-form {
-    background-color: #ffffff; /* Ensures the form background is white */
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(184, 21, 21, 0.93); /* Adds subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(184, 21, 21, 0.93); 
   }
   
   .contact-form .form-control {
-    border-radius: 4px; /* Slightly rounded edges for form inputs */
+    border-radius: 4px; 
   }
   
   .contact-form button.btn-primary {
-    background-color: #0056b3; /* Custom primary color if needed */
-    border-color: #0056b3; /* Ensures the border color matches */
+    background-color: #0056b3;
+    border-color: #0056b3;
   }
   
   .contact-info {
     margin-top: 20px;
     padding: 15px;
-    background-color: #f2f2f2; /* Slightly different background to distinguish the section */
+    background-color: #f2f2f2;
     border-radius: 8px;
   }
   
   .contact-info address {
-    margin-bottom: 0; /* Reduces space below the address for compact appearance */
+    margin-bottom: 0; 
   }
 
   .parsley-errors-list {
@@ -80,16 +78,16 @@ main {
 }
   
   .map iframe {
-    width: 100%; /* Full width to ensure responsiveness */
-    height: 450px; /* Fixed height, but could be made responsive with Bootstrap's classes */
-    border: none; /* Removes default border styling */
-    border-radius: 8px; /* Optional: adds rounded corners to the map */
+    width: 100%; 
+    height: 450px; 
+    border: none; 
+    border-radius: 8px; 
   }
   
 /* Footer */
 
 /* Background color for the copyright section */
-.copyright-section {
-  background-color: #333; /* Change this color to whatever you prefer */
-  color: #fff; /* Set text color to white for contrast */
+  .copyright-section {
+    background-color: #333; 
+    color: #fff; 
 }
