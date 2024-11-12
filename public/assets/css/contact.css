@@ -1,3 +1,9 @@
+/* Scrollbar  */
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
 /* CONTACT US */
 
 body{

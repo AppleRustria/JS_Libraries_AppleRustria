@@ -1,4 +1,8 @@
+/* Scrollbar  */
 
+body::-webkit-scrollbar {
+  display: none; 
+}
   
   /* Logo styling */
   .logo {
